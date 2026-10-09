@@ -5,8 +5,14 @@ package net.omaima;
 public class Main {
     public static void main(String[] args) {
         Context context = new Context();
-        context.effectuerOperation(1);
-        context.effectuerOperation(2);
-        context.effectuerOperation(7);
+
+        context.effectuerOperation();
+
+        context.setStrategy(new StrategyImpl1());
+        context.effectuerOperation();
+
+        context.setStrategy(new StrategyImpl2());
+        context.effectuerOperation();
+
     }
 }
