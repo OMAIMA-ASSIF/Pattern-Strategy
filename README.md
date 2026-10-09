@@ -16,18 +16,21 @@ In this example:
 ### 1. Available Strategies
 
 The program displays the available strategy implementations.
+
 ![img.png](img.png)
 
 
 ### 2. Selecting a Strategy
 
 The user enters `2` to select Strategy 2.
+
 ![img_1.png](img_1.png)
 
 
 ### 3. Creating and Reusing a Strategy
 
 When Strategy 2 is selected for the first time, the program displays `Creating new strategy ...`. When it is selected again, the existing instance is reused.
+
 ![img_4.png](img_4.png)
 
 ## Key Concepts
